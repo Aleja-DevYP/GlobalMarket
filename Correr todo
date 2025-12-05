@@ -1,0 +1,8 @@
+# Método 1: Ejecutar todo
+mongosh "mongodb+srv://usuario:contraseña@cluster0.hqctzjb.mongodb.net/GlobalMarket" --file scripts/run-all.js
+
+# Método 2: Ejecutar individualmente
+mongosh "mongodb+srv://usuario:contraseña@cluster0.hqctzjb.mongodb.net/GlobalMarket"
+> load('scripts/validations.js')
+> load('scripts/indexes.js')
+> load('scripts/aggregations.js')
