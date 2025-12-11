@@ -78,7 +78,7 @@ Joldred Loaiza, 25.083.377
   }
 }
 
-Ventas:
+**`Ventas:`**   
 
 {
   "$jsonSchema": {
